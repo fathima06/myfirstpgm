@@ -1,5 +1,6 @@
-class A{
-    public void Car(){
+interface Parent1{
+    
+    default void Car(){
     System.out.println("Audi Car");
 }
 }
