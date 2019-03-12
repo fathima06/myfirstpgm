@@ -9,9 +9,11 @@ public class Prime{
 
 
 count=0;
-for(int j=1; j<=i;j++){
+for(int j=1; j<=i;j++)
+{
     
-    if(i%j==0){
+    if(i%j==0)
+    {
         count++;
     }
 }
